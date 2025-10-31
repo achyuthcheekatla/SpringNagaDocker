@@ -9,12 +9,12 @@ public class SampleController {
 	
 	@GetMapping("/message")
 	public String message() {
-		return "hellow world";
+		return "Welcome to the World ";
 	}
 	
 	@GetMapping("/message/{name}")
 	public String messageByName(@PathVariable String name) {
-		return "hellow world "+name;
+		return "Welcome to the World "+name;
 	}
 
 }
